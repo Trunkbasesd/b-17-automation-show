@@ -7,6 +7,11 @@ terraform {
     }
 }
 
+provider "azurerm" {
+    features {}
+    subscription_id = ""
+}
+
 
 resource "azurerm_resource_group" "resource_group" {
     name = "ankit"
