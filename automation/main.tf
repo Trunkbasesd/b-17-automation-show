@@ -17,3 +17,8 @@ resource "azurerm_resource_group" "resource_group" {
     name = "ankit"
     location = "central india"
 }
+
+resource "azurerm_resource_group" "resource_group" {
+    name = "ankit1"
+    location = "central india"
+}
