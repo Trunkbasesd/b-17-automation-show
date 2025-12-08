@@ -18,7 +18,12 @@ resource "azurerm_resource_group" "resource_group" {
     location = "central india"
 }
 
+<<<<<<< HEAD
 resource "azurerm_resource_group" "resource_group" {
     name = "ankit1"
+=======
+resource "azurerm_resource_group" "resource_group2" {
+    name = "ankit2"
+>>>>>>> swati
     location = "central india"
 }
